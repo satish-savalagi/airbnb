@@ -1,0 +1,640 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(241, 238, 238);
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-family:sans-serif;
+    padding-left: 25rem;
+    padding-top: 1.5rem;
+    /* position: fixed; */
+}
+
+
+
+
+/* NAVBAR */
+
+:root{
+    --dp:flex;
+    --jstfy-cntnt:space-between;
+    --bgcolor:red;
+    --clr:white;
+    --psn:absolute;
+}
+
+
+
+.navbar{
+    display:var(--dp);
+    justify-content: var(--jstfy-cntnt);
+    /* position: fixed; */
+}
+
+img[alt="air"]{
+    height: 2rem;
+    position: absolute;
+    top: 5.5rem;
+    left: 2rem;
+}
+
+#flex-1{
+    height: 3rem;
+    width: 20rem;
+  position: absolute;
+  left: 31rem;
+  top: 6rem;
+  display: var(--dp);
+  justify-content: var(--jstfy-cntnt);
+  border: solid rgb(243, 239, 239);
+  background-color: rgb(248, 244, 244);
+  box-shadow:3px 1px 3px 2px rgb(230, 221, 221),1px 2px 3px 1px rgb(233, 229, 229);
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+#flex-1 i{
+    color: var(--clr);
+    height: 28px;
+    width: 10%;
+    border-radius: 100%;
+    background-color: var(--bgcolor);
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    font-size: 0.8rem;
+}
+
+#flex-2{
+   margin-left: 60rem;
+   margin-top: 1.5rem;
+}
+
+#flex-2 button{
+    width:10rem;
+    height: 2.2rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    border: none;
+    background-color:white;
+}
+
+#flex-2 button:hover{
+    background-color: rgb(250, 246, 246);
+}
+
+#round{
+   position:var(--psn);
+   left: 70rem;
+   top: 6.3rem;
+   border-radius: 50%;
+}
+
+#round:hover{
+    background-color: rgb(211, 146, 146);
+}
+
+.flex-3{
+    height: 50px;
+    width: 7%;
+    border: 0.1px solid rgb(199, 176, 176);
+    margin-right: 60px;
+    margin-top: 20px;
+    border-radius: 2rem;
+}
+
+img[alt="person"]{
+    padding-left: 50px;
+    padding-top: 8px;
+}
+
+.flex-3 i{
+    position: absolute;
+    left: 75.4rem;
+    top: 6.6rem;
+}
+
+.flex-3:hover{
+    box-shadow:-10px -10px 20px rgb(247, 245, 245),0px 2px 2px 1px rgb(22, 9, 9);
+}
+
+#bar{
+    content: "";
+    border-bottom:0.1rem solid rgb(214, 198, 198);
+    margin-top: 2rem;
+}
+
+
+/* NAVBAR-2 */
+
+
+
+ #images{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: gray;
+    margin-top: 2rem;
+} 
+
+p{
+    font-size: 0.8rem;
+}
+
+img[alt="photo"]{
+    height: 24px;
+    color: rgb(172, 166, 166);
+}
+
+.jpg-1{
+    padding-left: 5rem;
+}
+
+#arrow{
+    position: absolute;
+    left: 55rem;
+    top: 13rem;
+}
+
+#filter{
+    height: 50px;
+    width: 7%;
+    border: 0.1px solid rgb(199, 176, 176);
+    border-radius: 1rem;
+    position:absolute;
+    left: 59rem;
+    top: 12.4rem;
+}
+
+#let{
+    position:absolute;
+    left: 3rem;
+    font-size: 1rem;
+    top: 1rem;
+}
+
+#filter svg{
+    position:absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+#display{
+    height: 50px;
+    width: 17%;
+    border: 0.1px solid rgb(199, 176, 176);
+    border-radius: 1rem;
+    position:absolute;
+    left: 67rem;
+    top: 12.4rem;
+}
+
+#togg{
+    height: 100px;
+    position: absolute;
+    left: 12rem;
+    top: 0.9rem;
+}
+
+#tax{
+    font-size: 1rem;
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+}
+
+/* IMAGES PART */
+
+.navbar-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    background-attachment: fixed;
+    position: sticky;
+}
+
+img[alt="demo"]{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+#nor{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-weight: 600;
+    font-family:sans-serif;
+}
+
+#nor p{
+    font-size: 1rem;
+}
+
+.jan{
+    color: rgb(134, 125, 125);
+}
+
+
+
+/* number 2 */
+
+#para-z p{
+    font-size: 1rem;
+}
+
+#suff{
+    display: flex;
+    gap: 11.3rem;
+}
+
+#suff p{
+    font-size: 1rem;
+}
+
+
+/* number 3 */
+
+#ketter{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ketter p{
+    font-size: 1rem;
+}
+
+
+/* number 4 */
+
+#newton{
+    display: flex;
+    justify-content: space-between;
+}
+
+#newton p{
+    font-size: 1rem;
+}
+
+
+/* NAVBAR-4 PART */
+
+.navbar-4{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+        padding-left: 1.5rem;
+        position: sticky;
+
+} 
+
+#ind{
+    display: flex;
+    justify-content: space-between;
+}
+#ind p{
+    font-size: 1rem;
+}
+
+
+#can{
+    display: flex;
+    justify-content: space-between;
+}
+#can p{
+    font-size: 1rem;
+}
+
+
+#neru{
+    display: flex;
+    justify-content: space-between;
+}
+#neru p{
+    font-size: 1rem;
+}
+
+
+#saga{
+    display: flex;
+    justify-content: space-between;
+}
+#saga p{
+    font-size: 1rem;
+}
+
+
+/* NAVBAR-5 PART */
+
+
+.navbar-5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    position: sticky;
+} 
+
+#sali{
+    display: flex;
+    justify-content: space-between;
+}
+#sali p{
+    font-size: 1rem;
+}
+
+
+#erna{
+    display: flex;
+    justify-content: space-between;
+}
+#erna p{
+    font-size: 1rem;
+}
+
+
+#home{
+    display: flex;
+    justify-content: space-between;
+}
+#home p{
+    font-size: 1rem;
+}
+
+
+#lon{
+    display: flex;
+    justify-content: space-between;
+}
+#lon p{
+    font-size: 1rem;
+}
+
+
+/* NAVBAR-6 PART */
+
+.navbar-6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    position: sticky;
+} 
+
+#cott{
+    display: flex;
+    justify-content: space-between;
+}
+#cott p{
+    font-size: 1rem;
+}
+
+
+#hut{
+    display: flex;
+    justify-content: space-between;
+}
+#hut p{
+    font-size: 1rem;
+}
+
+
+#dome{
+    display: flex;
+    justify-content: space-between;
+}
+#dome p{
+    font-size: 1rem;
+}
+
+
+#tiny{
+    display: flex;
+    justify-content: space-between;
+}
+#tiny p{
+    font-size: 1rem;
+}
+
+
+/* NAVBAR-7 PART */
+
+.navbar-7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    position: sticky;
+} 
+
+#plane{
+    display: flex;
+    justify-content: space-between;
+}
+#plane p{
+    font-size: 1rem;
+}
+
+
+#room{
+    display: flex;
+    justify-content: space-between;
+}
+#room p{
+    font-size: 1rem;
+}
+
+
+#stay{
+    display: flex;
+    justify-content: space-between;
+}
+#stay p{
+    font-size: 1rem;
+}
+
+
+#bali{
+    display: flex;
+    justify-content: space-between;
+}
+#bali p{
+    font-size: 1rem;
+} 
+
+
+/* BOTTOM PART */
+
+
+#bottom{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+h3{
+    height:50px;
+    width: 10%;
+    position: absolute;
+    top: 159rem;
+    left: 38rem;
+    border: 2px solid;
+    padding-top: 0.8rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+
+/* FOOTER PART */
+
+#gateways{
+    position: relative;
+    top: 10rem;
+    /* background-color: rgb(235, 222, 222); */
+}
+
+
+#inspire{
+    position: absolute;
+    left: 4rem;
+    font-size: 1.8rem;
+}
+
+ul{
+    display: flex;
+    gap: 1.6rem;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    list-style-type: none;
+    font-size: 1.1rem ;
+    color: rgb(128, 118, 118);
+}
+
+#pop li:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#bar-2{
+    content: "";
+    border-bottom:0.1rem solid rgb(214, 198, 198);
+    position: absolute;
+    top: 2000rem;
+}
+
+#solid nav{
+    content: "";
+    border-bottom:0.1rem solid rgb(214, 198, 198);
+    margin-top: 17rem;
+}
+
+#canmore{
+    position: absolute;
+    top: 10rem;
+    gap: 8rem;
+}
+
+.sss{
+    font-weight: bold;
+    color: rgb(73, 69, 69);
+}
+
+#can p{
+    color: rgb(134, 125, 125);
+}
+
+
+#tucson{
+    position: absolute;
+    top: 15rem;
+    gap: 7.6rem;
+}
+
+.zzz{
+    font-weight: bold;
+    color: rgb(73, 69, 69);
+}
+
+#son p{
+    color: rgb(134, 125, 125);
+}
+
+
+#anaheim{
+    position: absolute;
+    top: 20rem;
+    gap: 7rem;
+}
+
+.ttt{
+    font-weight: bold;
+    color: rgb(56, 52, 52);
+}
+
+#ana p{
+    color: rgb(134, 125, 125);
+}
+
+
+#sec section{
+    content: "";
+    border-bottom: 0.1rem solid rgb(192, 185, 185);
+    margin-top: 19rem;   
+}
+
+.last-foot{
+    display: flex;
+    justify-content:space-between;
+    line-height: 2rem;
+    list-style-type: none;
+    padding-right: 7rem;
+    padding-left: 2rem;
+    position: relative;
+    top: 3rem;
+}
+
+ol li{
+    position: relative;
+    left: 1rem;
+    gap: 5rem;
+    font-size: 1.1rem;
+    color: rgb(94, 87, 87);
+}
+
+.sha{
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
